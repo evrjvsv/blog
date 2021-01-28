@@ -35,21 +35,21 @@ hexo g
 ```
 
 生成后目录如下：
-
->test
->├── _config.landscape.yml
->├── _config.yml
->├── db.json
->├── node_modules
->├── package.json
->├── package-lock.json
->├── public
->├── scaffolds
->├── source
->│	 └── _posts
->│  		  └──  hello-world.md
->└── themes
-
+```
+test
+├── _config.landscape.yml
+├── _config.yml
+├── db.json
+├── node_modules
+├── package.json
+├── package-lock.json
+├── public
+├── scaffolds
+├── source
+│  └── _posts
+│  	  └──  hello-world.md
+└── themes
+```
 其中node_modules用于存放依赖，scaffolds存放拼接于三种页面开头的信息
 
 source存放已经编写好的md文件，public存放生成好的网页
